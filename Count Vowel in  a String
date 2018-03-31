@@ -1,0 +1,8 @@
+in_p = input(Enter a String :)
+count =0
+
+for word in in_p:
+ if word in 'aeiou':
+  count += 1 
+
+print("Number of Vowel:", count)
